@@ -1,4 +1,4 @@
-puts "What is your first name again?"
+puts "What is your first and middle  name again?"
 first = gets.chomp
 puts "What is your middle name?"
 middle = gets.chomp
