@@ -32,7 +32,7 @@ class Dungeon
   end
 
   def go(direction)
-    puts "You go" + direction.to_s
+    puts "You go " + direction.to_s
     @player.location = find_room_in_direction(direction)
     show_current_description
   end
@@ -42,6 +42,7 @@ class Dungeon
 
     def initialize(name)
       @name = name
+      
     end
   end
 
